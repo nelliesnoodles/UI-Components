@@ -1,0 +1,61 @@
+﻿
+/*  DROPDOWN ITEMS, SEE: drop.js */
+.dropdown {
+    margin-bottom: 10px;
+}
+
+.dropdown-menus {
+    display: none;
+    align-content: center;
+    justify-content: space-between;
+}
+
+.dropdown-link {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.row-box {
+    display: flex;
+}
+
+    .row-box i {
+        margin-left: 2ch;
+    }
+
+.extra-space {
+    padding-left: 3ch;
+    text-align: center;
+}
+
+.spacer {
+    width: 11%;
+}
+
+.drop-menu {
+    display: flex;
+    flex-direction: column;
+    background: black;
+    color: white;
+    width: 15%;
+    margin-bottom: 10px;
+}
+
+    .drop-menu a {
+        color: white;
+    }
+
+
+#download-menu {
+    display: none;
+}
+
+#community-menu {
+    display: none;
+}
+
+#github-menu {
+    display: none;
+}
+
+/*   END DROP DOWN  components */

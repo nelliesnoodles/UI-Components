@@ -1,0 +1,48 @@
+﻿/* 
+    Stylesheet for collapsable sidebar 
+    Author: Nellie Tobey
+*/
+.nav_sidebar {
+    width: 20px;
+    height: 100vh;
+    margin-top: 30px;
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    background: #000000d1;
+    display: flex;
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 1.5em;
+}
+
+.vertical-shifbar {
+    margin-left: 90%;
+    height: 100vh;
+    width: auto;
+    padding: 12px;
+    background: #cab835;
+    color: black;
+    position: absolute;
+    z-index: 21;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.linkbox {
+    display: none;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 100px;
+    font-family: 'News Cycle', sans-serif;
+    color: white;
+}
+    .linkbox a {
+        color: #02fdf6;
+        width: 20ch;
+        padding-left: 2ch;
+    }
+
